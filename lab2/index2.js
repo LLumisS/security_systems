@@ -21,7 +21,6 @@ request(token_options, function (error, response, body) {
 });
 
 function create_user(token) {
-  console.log(token);
   const user_options = {
     method: 'POST',
     url: 'https://dev-xwjltbj2c83occox.us.auth0.com/api/v2/users',
